@@ -54,6 +54,13 @@ collections: # A list of collections the CMS should be able to edit
               - label: Text
                 name: text
                 widget: text
+          - label: Contact Form Fields
+            name: contact_form_fields
+            widget: list
+            fields:
+              - label: Form Fields
+                name: name
+                widget: string
       - file: "site/content/products/_index.md"
         label: "Products Page"
         name: "products"
